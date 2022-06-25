@@ -1,0 +1,24 @@
+.item {
+  color: #fafaf9;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin: 1rem;
+}
+
+.item h3 {
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 0.75rem;
+  font-weight: 700;
+  color: #ff503f;
+  font-size: 1.8rem;
+}
