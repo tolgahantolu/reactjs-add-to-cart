@@ -3,9 +3,12 @@
   font-size: 1.6rem;
   display: flex;
   justify-content: space-between;
+  margin: 1rem;
+}
+
+.item:not(:last-child) {
   border-bottom: 1px solid #ccc;
   padding-bottom: 1rem;
-  margin: 1rem;
 }
 
 .item h3 {

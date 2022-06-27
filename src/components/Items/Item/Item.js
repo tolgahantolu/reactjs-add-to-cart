@@ -1,3 +1,4 @@
+import ItemForm from "./ItemForm";
 import classes from "./Item.module.css";
 
 const Item = (props) => {
@@ -9,7 +10,7 @@ const Item = (props) => {
         <div className={classes.description}>{props.description}</div>
         <div className={classes.price}>{price}</div>
       </div>
-      <div>form</div>
+      <ItemForm />
     </li>
   );
 };
