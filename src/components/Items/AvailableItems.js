@@ -34,6 +34,7 @@ const AvailableItems = () => {
   const itemsList = DUMMY_ITEMS.map((item) => {
     return (
       <Item
+        id={item.id}
         key={item.id}
         name={item.name}
         description={item.description}
